@@ -1,0 +1,17 @@
+.history-container {
+    padding: 20px;
+  }
+  
+  .note-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .note-card p {
+    margin: 5px 0;
+  }
+
+  

@@ -1,0 +1,84 @@
+/* styles.css */
+.create-form, .edit-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-form h2, .edit-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-form textarea, .edit-form textarea,
+.create-form input[type="text"], .edit-form input[type="text"],
+.create-form input[type="file"], .edit-form input[type="file"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.create-form button, .edit-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create-form button:hover, .edit-form button:hover {
+  background-color: #0056b3;
+}
+
+.notes-container, .history-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.note-card p {
+  margin: 5px 0;
+}
+
+.note-card button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.note-card button:hover {
+  background-color: #0056b3;
+}
+
+.audio-recorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio-recorder button {
+  margin-top: 10px;
+}
